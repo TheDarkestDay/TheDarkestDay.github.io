@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clock/static/css/main.edf2679f.css",
-    "main.js": "/clock/static/js/main.23b6125d.js",
+    "main.css": "/clock/static/css/main.a10f5176.css",
+    "main.js": "/clock/static/js/main.bf84ef71.js",
     "static/js/540.ff144c41.chunk.js": "/clock/static/js/540.ff144c41.chunk.js",
     "static/js/787.b972bb5b.chunk.js": "/clock/static/js/787.b972bb5b.chunk.js",
     "static/media/bg-image-nighttime.jpg": "/clock/static/media/bg-image-nighttime.aa5161f57be5fd66b6a2.jpg",
@@ -11,13 +11,13 @@
     "static/media/icon-refresh.svg": "/clock/static/media/icon-refresh.dd4042c8a2d8493ec9ddb2b52692ad11.svg",
     "static/media/icon-moon.svg": "/clock/static/media/icon-moon.83b9f0dbe53bfaab2e1c6dc344545e9c.svg",
     "static/media/icon-arrow-down.svg": "/clock/static/media/icon-arrow-down.4d330a30a2190ce71512.svg",
-    "main.edf2679f.css.map": "/clock/static/css/main.edf2679f.css.map",
-    "main.23b6125d.js.map": "/clock/static/js/main.23b6125d.js.map",
+    "main.a10f5176.css.map": "/clock/static/css/main.a10f5176.css.map",
+    "main.bf84ef71.js.map": "/clock/static/js/main.bf84ef71.js.map",
     "540.ff144c41.chunk.js.map": "/clock/static/js/540.ff144c41.chunk.js.map",
     "787.b972bb5b.chunk.js.map": "/clock/static/js/787.b972bb5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf2679f.css",
-    "static/js/main.23b6125d.js"
+    "static/css/main.a10f5176.css",
+    "static/js/main.bf84ef71.js"
   ]
 }

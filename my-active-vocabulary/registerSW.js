@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/my-active-vocabulary/sw.js', { scope: '/my-active-vocabulary/' })})}

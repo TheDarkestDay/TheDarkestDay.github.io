@@ -1322,7 +1322,7 @@ var Gd=Object.defineProperty,Jd=Object.defineProperties;var Yd=Object.getOwnProp
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */function K_(e=Bf()){const t=ka(e,"auth");return t.isInitialized()?t.getImmediate():ab(e,{popupRedirectResolver:z_,persistence:[Xb,Fb,ld]})}W_("Browser");const Q_=e=>new Promise(t=>setTimeout(t,e)),G_=new Lt;let Os=K_();Db(Os);const J_=async()=>{try{const e=await o_(Os,G_);if(Lt.credentialFromResult(e)==null)throw new Error("Credential appeared to be null");return e.user}catch(e){console.error("An error occurred during sign up: ",e)}},Y_=5e3,X_=()=>new Promise(e=>{Os.onAuthStateChanged(e)}),Jr=async()=>{const e=Os.currentUser;return e!=null?e:Promise.race([Q_(Y_).then(()=>null),X_()])};/**
+ */function K_(e=Bf()){const t=ka(e,"auth");return t.isInitialized()?t.getImmediate():ab(e,{popupRedirectResolver:z_,persistence:[Xb,Fb,ld]})}W_("Browser");const Q_=e=>new Promise(t=>setTimeout(t,e)),G_=new Lt;let Os=K_();Db(Os);const J_=async()=>{try{const e=await o_(Os,G_);if(Lt.credentialFromResult(e)==null)throw new Error("Credential appeared to be null");return e.user}catch(e){console.error("An error occurred during sign up: ",e)}},Y_=5e3,X_=()=>new Promise(e=>{Os.onIdTokenChanged(e)}),Jr=async()=>{const e=Os.currentUser;return e!=null?e:Promise.race([Q_(Y_).then(()=>null),X_()])};/**
  * @license
  * Copyright 2017 Google LLC
  *
